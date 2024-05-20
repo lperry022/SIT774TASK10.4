@@ -1,0 +1,96 @@
+.section1 {
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, black 30%);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    z-index: 6;
+}
+
+.section1 > div {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.section1 img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.animation {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+    color: white;
+    z-index: 2;
+}
+
+.animation>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first div {
+    background-color: #ffd500;
+}
+
+.second div {
+    background-color: #ff0088;
+}
+
+.third div {
+    background-color: #bb00ff;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}

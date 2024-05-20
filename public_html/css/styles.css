@@ -1,0 +1,147 @@
+
+footer {
+    background-color: #333;
+    color: #81eefa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    color: #81eefa;
+
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    color: #81eefa;
+    text-decoration: none;
+}
+
+
+.start {
+    width: 50px;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+    z-index: 2;
+}
+
+
+.blackstart {
+    width: 50px;
+    animation: bounce 2s infinite;
+    z-index: 3;
+    position: relative;
+    margin-top: 600px;
+    left: -190px;
+}
+
+
+.container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+
+.pinkstart {
+    width: 50px;
+    animation: bounce 2s infinite;
+    z-index: 3;
+    position: relative;
+    margin-top: 600px;
+    left: -670px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.parallax-text {
+    font-family: 'PixelFont', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li::marker {
+    color: rgb(255, 255, 255);
+}
+
+.css-image,
+.html-image,
+.js-image, .alien-image,
+.pink-content,.section4-content,
+.left-content,
+.section7-content {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.css-image:hover,
+.html-image:hover,
+.js-image:hover,.section4-content:hover, .alien-image:hover,
+.pink-content:hover,
+.left-content:hover,
+.section7-content:hover {
+    transform: scale(1.05);
+}

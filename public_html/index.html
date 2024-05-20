@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/landingsection.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/section3.css">
+    <link rel="stylesheet" href="css/section4.css">
+    <link rel="stylesheet" href="css/section5.css">
+    <link rel="stylesheet" href="css/section6.css">
+    <link rel="stylesheet" href="css/section7.css">
+    <link rel="stylesheet" href="css/section8.css">
+    <link rel="stylesheet" href="css/parallax.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    .parallax {
+        background-image: url("space.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+
+<body>
+    <div class="landingpage">
+        <div class="navbar">
+            <img src="logo.png" class="navlogo" id="navlogo">
+            <div class="navbar-content"><strong><em>s224299388</em></strong></div>
+        </div>
+        <div class="video-container">
+            <video autoplay muted loop id="background-video">
+                <source src="loopretro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="landing-content">
+            <img src="sun.png" class="sun" id="sun">
+            <img src="logo.png" class="logo" id="logo">
+            <br>
+            <p class="bluetext"><em><strong>Ignite your creativity</strong></em></p>
+            <img src="start.png" class="start" id="start">
+        </div>
+    </div>
+
+    <div class="section1" id="section1">
+        <p class="bluetext"><strong><em>What is the</em></strong></p>
+        <section class="animation">
+            <div class="first">
+                <div><strong><em>parallax</em></strong></div>
+            </div>
+            <div class="second">
+                <div><strong><em>parallax</em></strong></div>
+            </div>
+            <div class="third">
+                <div><strong><em>parallax</em></strong></div>
+            </div>
+        </section>
+        <p class="bluetext"><strong><em>&nbsp;effect?</em></strong></p>
+    </div>
+
+    <div class="section2" id="section2">
+        <img src="neon.jpg" alt="Neon" class="neon-image">
+        <div class="left-content">
+            <h2>Understanding the Parallax Effect</h2>
+            <p>The parallax effect is a technique used in web design where background images move slower than foreground
+                images, creating an illusion of depth and immersion. It adds a dynamic element to the website and
+                enhances the user experience.</p>
+        </div>
+        <p class="section2text"><em><strong>Let's look at some examples</strong></em></p>
+        <img src="start.png" class="purplestart" id="purplestart">
+
+        <div class="right-content">
+            <img src="earth.png" class="earth-image">
+        </div>
+    </div>
+
+  <!--Section 3--> 
+    <div class="parallax">
+        <img src="ufo.png" class="ufo">
+        <div class="section3-text" id="section3-text">
+        <p class="section3-text"><em><strong>Strange... It looks like space is moving and the UFO is
+                    idle...</strong></em></p>
+                </div>
+    </div>
+
+
+    <div class="section4" id="section4">
+        <div class="section4-content">
+            <h2>How does this work?</h2>
+            <ul>
+                <h3><strong>Step 1 - HTML Structure:</strong></h3>
+                <li>
+                    <p>
+                        Ensure you have a container element for your parallax section. This could be a &lt;div&gt;
+                        element with a specific class, like &lt;div&gt; class="parallax">&lt;/div&gt;
+                    </p>
+                </li>
+                <h3><strong>Step 2 - CSS Stying:</strong></h3>
+                <li>
+                    <p>Set the background-image property of the container to url('space.jpg').</p>
+                </li>
+                <li>
+                    <p>Adjust the background-size and background-position properties to control the appearance
+                        of the background image.</p>
+                </li>
+                <li>
+                    <p>Set the height property to determine the height of the parallax section.</p>
+                </li>
+                <li>
+                    <p>Optionally, set position: relative; to the container if needed.</p>
+                </li>
+            </ul>
+        </div>
+        <img src="david.png" class="david-image" id="david-image">
+        <div class="section4-rightcontent">
+            <h3><strong>HTML:</strong></h3>
+            <br>
+            <img src="html.png" class="html-image">
+            <br>
+            <h3><strong>CSS:</strong></h3>
+            <br>
+            <img src="css.png" class="css-image">
+        </div>
+        <img src="start.png" class="pinkstart" id="pinkstart">
+    </div>
+
+    <div class="section5" id="section5">
+        <img src="codean.gif" alt="Code Animation" class="codeanni">
+        <p class="bluetext"><strong><em>Lets get</em></strong></p>
+        <section class="animation">
+            <div class="first">
+                <div><strong><em>complicated</em></strong></div>
+            </div>
+            <div class="second">
+                <div><strong><em>complicated</em></strong></div>
+            </div>
+            <div class="third">
+                <div><strong><em>complicated</em></strong></div>
+            </div>
+        </section>
+        <img src="start.png" class="blackstart" id="blackstart">
+
+    </div>
+
+    <div class="section6">
+        <img src="evan.jpg" class="section6-bg">
+        <p class="bluetext"><strong><em>Evangelion Movies/Shows</em></strong></p>
+        <div class="cards">
+            <div class="card card__one">
+                <div class="card__bg"></div>
+                <img class="card__img" src="rei.png" />
+                <div class="card__text">
+                    <p class="card__title">The End of Evangelion
+                    </p>
+                </div>
+            </div>
+            <div class="card card__two">
+                <div class="card__bg"></div>
+                <img class="card__img" src="asuka.png" />
+                <div class="card__text">
+                    <p class="card__title">3.0+1.0 Thrice Upon a Time</p>
+                </div>
+            </div>
+            <div class="card card__three">
+                <div class="card__bg"></div>
+                <img class="card__img" src="Shinji_.png" />
+                <div class="card__text">
+                    <p class="card__title">Neon Genesis Evangelion
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section7" id="section7">
+        <div class="container">
+            <div class="left-content-cards">
+                <div class="cards">
+                    <div class="card card__one">
+                        <div class="card__bg"></div>
+                        <img class="card__img" src="rei.png" />
+                        <div class="card__text">
+                            <p class="card__title">The End of Evangelion
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card__two">
+                        <div class="card__bg"></div>
+                        <img class="card__img" src="asuka.png" />
+                        <div class="card__text">
+                            <p class="card__title">3.0+1.0 Thrice Upon a Time</p>
+                        </div>
+                    </div>
+                    <div class="card card__three">
+                        <div class="card__bg"></div>
+                        <img class="card__img" src="Shinji_.png" />
+                        <div class="card__text">
+                            <p class="card__title">Neon Genesis Evangelion
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section7-content">
+                <h2>3D CSS Parallax Depth Effect</h2>
+                <ul>
+                    <li>
+                        <p><strong>Perspective and Transformations:</strong> The effect is achieved by using CSS
+                            properties like <em>perspective</em> and <em>transform</em>. <em>perspective</em> sets the
+                            depth of the view for the 3D transformations, and <em>transform</em> applies the actual 3D
+                            transformations such as rotations and translations.</p>
+                    </li>
+                    <li>
+                        <p><strong>Container Setup:</strong> First, a container element is set up with a perspective
+                            value that determines the intensity of the 3D effect. This container acts as the perspective
+                            origin for all the child elements.</p>
+                    </li>
+                    <li>
+                        <p><strong>Card Setup:</strong> Each card or element that needs the parallax effect is styled
+                            with <em>transform-style: preserve-3d</em> to ensure that its children maintain their 3D
+                            positions relative to the parent.</p>
+                    </li>
+                    <li>
+                        <p><strong>Mouse Interaction:</strong> Mouse movement triggers the parallax effect. As the
+                            mouse moves, JavaScript calculates the position of the cursor relative to the viewport and
+                            adjusts the rotation values of the container and the translation values of the card elements
+                            accordingly.</p>
+                    </li>
+                    <li>
+                        <p><strong>Depth Perception:</strong> The depth of each card is controlled by applying
+                            different translation values along the z-axis. As the mouse moves, cards closer to the
+                            viewer move more prominently than those farther away, creating the illusion of depth.</p>
+                    </li>
+                    <li>
+                        <p><strong>Background Parallax:</strong> Additionally, background images within the cards can
+                            also be animated to move at a different rate, enhancing the perception of depth.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img src="start.png" class="pinkstart" id="pinkstart">
+    </div>
+
+
+    <div class="section8" id="section8">
+        <div class="section8" id="section8">
+            <table class="description-table">
+                <h2>How it works</h2>
+                <thead>
+                    <tr>
+                        <th>Type of Code</th>
+                        <th>Code</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>HTML</strong></td>
+                        <td>
+                            <img src="cardshtml.png" class="html-image" alt="HTML Image">
+                        </td>
+                        <td>
+                            The HTML code defines a structure for the cards using <code>&lt;div&gt;</code> elements with
+                            appropriate classes.
+                            <br>
+                            <br>
+                            Each card contains:
+                            <br>
+                            <br>
+                            (<code>&lt;div class="card__bg"&gt;</code>) = a <span
+                                style="color: #81eefa">background</span> element
+                            <br>
+                            <br>
+                            (<code>&lt;img class="card__img"&gt;</code>) = an <span style="color: #81eefa">image</span>
+                            element
+                            <br>
+                            <br>
+                            (<code>&lt;div class="card__text"&gt;</code>) = a <span style="color: #81eefa">text</span>
+                            element
+                            <br>
+                            <br>
+                            (<code>&lt;p class="card__title"&gt;</code>) = and a <span
+                                style="color: #81eefa">title</span> element.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>JavaScript</strong></td>
+                        <td>
+                            <img src="cardsjs.png" class="js-image" alt="JS Image">
+                        </td>
+                        <td>
+                            The <span style="color: #81eefa">JavaScript code</span> handles the <span
+                                style="color: #81eefa">3D parallax effect</span> based on <span
+                                style="color: #81eefa">mouse</span> movement. It selects the
+                            necessary elements from the DOM using <span
+                                style="color: #81eefa"><code>document.querySelector</code></span> and
+                            <span style="color: #81eefa"><code>document.querySelectorAll</code></span>.
+                            <br>
+                            <br>
+                            A function <span style="color: #81eefa"><code>calcValue</code></span> calculates the
+                            rotation and translation values based on the mouse position.
+                            <br>
+                            <br>
+                            <span style="color: #81eefa"> Event listeners</span> are added to
+                            track mouse movement (<code>mousemove</code> event). Within the event listener, the <span
+                                style="color: #81eefa">rotation
+                                and translation </span> values are calculated and applied to the <code>.cards</code>,
+                            <code>.card__img</code>, and <code>.card__bg</code> elements to achieve the <span
+                                style="color: #81eefa">parallax effect</span>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>CSS</strong></td>
+                        <td>
+                            <img src="cardscss1.png" class="css-image" alt="CSS Image">
+                            <img src="cardscss2.png" class="css-image" alt="CSS Image">
+                            <img src="cardscss3.png" class="css-image" alt="CSS Image">
+                        </td>
+                        <td>
+                            The <span style="color: #81eefa"> CSS code</span>styles the appearance of the cards and
+                            their elements. It sets the <span style="color: #81eefa">background
+                                color, border radius, box shadow, padding, perspective, and other properties</span> for
+                            the
+                            <code>.cards</code> container and individual <code>.card</code> elements.
+
+                            <br>
+                            <br>
+
+                            The <code>.card__img</code> and <code>.card__bg</code> classes define styles for the card
+                            images
+                            and background respectively.
+                            <br>
+                            <br>
+                            Specific styles for each card (<code>.card__one</code>,
+                            <code>.card__two</code>, <code>.card__three</code>) customize their appearance and
+                            positioning.
+                            <br>
+                            <br>
+                            <span style="color: #81eefa">Transitions</span> and <span
+                                style="color: #81eefa">hover</span> effects are also defined to create interactive
+                            behavior.
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <p>&copy; Parallax | Liana Perry | s224299388</p>
+    </div>
+</footer>
+
+
+</html>
